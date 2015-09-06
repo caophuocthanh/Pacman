@@ -1,0 +1,10 @@
+Package: caophuocthanh.ptcontrol
+Name: PTControl
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Cao Phuoc Thanh
+Author: Cao Phuoc Thanh
+Section: Tweaks
+Version: 0.0.1-54
+Installed-Size: 24
