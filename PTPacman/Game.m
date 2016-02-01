@@ -6,10 +6,10 @@
 //  Copyright (c) 2015 Cao Phuoc Thanh. All rights reserved.
 //
 
-#import "mains.h"
+#import "Game.h"
 #import "Pacman.h"
 #import "Noname.h"
-@implementation mains
+@implementation Game
 Pacman * pacman1;
 Pacman * pacman2;
 Noname * noname;
@@ -24,6 +24,9 @@ Noname * noname;
 }
 
 -(void)stop {
+  [pacman1 stopMove];
+  [pacman2 stopMove];
+  [noname stopMove];
 }
 
 @end

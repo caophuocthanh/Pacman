@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-@interface mains : NSObject
+@interface Game : NSObject
 -(void)run;
 -(void)stop;
 @end

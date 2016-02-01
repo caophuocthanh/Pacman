@@ -3,7 +3,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
-#import "mains.h"
+#import "Game.h"
 #import "Pacman.h"
 
 __attribute__((visibility("hidden")))
@@ -15,7 +15,7 @@ BOOL start = NO;
     return;
   }
   start = YES;
-  mains * game = [[mains alloc] init];
+  Game * game = [[Game alloc] init];
   [game run];
 }
 %end

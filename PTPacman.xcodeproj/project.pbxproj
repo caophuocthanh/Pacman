@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7CD0C4291B9AAAC900E5AFF7 /* Pacman.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD0C4211B9AAAC900E5AFF7 /* Pacman.png */; };
-		7CD0C42A1B9AAAC900E5AFF7 /* Pacmany.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD0C4221B9AAAC900E5AFF7 /* Pacmany.png */; };
+		7308BA3A1C5FE51D0059C704 /* Pacman.png in Resources */ = {isa = PBXBuildFile; fileRef = 7308BA341C5FE51D0059C704 /* Pacman.png */; };
+		7308BA3B1C5FE51D0059C704 /* Pacmany.png in Resources */ = {isa = PBXBuildFile; fileRef = 7308BA351C5FE51D0059C704 /* Pacmany.png */; };
+		7308BA3C1C5FE51D0059C704 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 7308BA361C5FE51D0059C704 /* unnamed.png */; };
+		7308BA3D1C5FE51D0059C704 /* unnamed0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7308BA371C5FE51D0059C704 /* unnamed0.png */; };
+		7308BA3E1C5FE51D0059C704 /* unnamed1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7308BA381C5FE51D0059C704 /* unnamed1.png */; };
+		7308BA3F1C5FE51D0059C704 /* unnameds.png in Resources */ = {isa = PBXBuildFile; fileRef = 7308BA391C5FE51D0059C704 /* unnameds.png */; };
 		7CD0C42B1B9AAAC900E5AFF7 /* Tweak.xm in Resources */ = {isa = PBXBuildFile; fileRef = 7CD0C4231B9AAAC900E5AFF7 /* Tweak.xm */; };
-		7CD0C42C1B9AAAC900E5AFF7 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD0C4241B9AAAC900E5AFF7 /* unnamed.png */; };
-		7CD0C42D1B9AAAC900E5AFF7 /* unnamed1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD0C4251B9AAAC900E5AFF7 /* unnamed1.png */; };
 		7CD0C42E1B9AAAC900E5AFF7 /* control in Resources */ = {isa = PBXBuildFile; fileRef = 7CD0C4261B9AAAC900E5AFF7 /* control */; };
 		7CD0C42F1B9AAAC900E5AFF7 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0C4271B9AAAC900E5AFF7 /* Makefile */; };
 		7CD0C4301B9AAAC900E5AFF7 /* PTControl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CD0C4281B9AAAC900E5AFF7 /* PTControl.plist */; };
-		7CD0C4321B9AB8EC00E5AFF7 /* mains.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0C4311B9AB8EC00E5AFF7 /* mains.m */; };
+		7CD0C4321B9AB8EC00E5AFF7 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0C4311B9AB8EC00E5AFF7 /* Game.m */; };
 		7CD0C43B1B9ABAA500E5AFF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD0C43A1B9ABAA500E5AFF7 /* UIKit.framework */; };
 		7CD0C4411B9ABF1900E5AFF7 /* Pacman.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0C4401B9ABF1900E5AFF7 /* Pacman.m */; };
 		7CD0C4431B9AC0A400E5AFF7 /* backup.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0C4421B9AC0A400E5AFF7 /* backup.m */; };
@@ -23,22 +25,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7308BA341C5FE51D0059C704 /* Pacman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pacman.png; path = PTPacman/pacman/Pacman.png; sourceTree = "<group>"; };
+		7308BA351C5FE51D0059C704 /* Pacmany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pacmany.png; path = PTPacman/pacman/Pacmany.png; sourceTree = "<group>"; };
+		7308BA361C5FE51D0059C704 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unnamed.png; path = PTPacman/pacman/unnamed.png; sourceTree = "<group>"; };
+		7308BA371C5FE51D0059C704 /* unnamed0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unnamed0.png; path = PTPacman/pacman/unnamed0.png; sourceTree = "<group>"; };
+		7308BA381C5FE51D0059C704 /* unnamed1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unnamed1.png; path = PTPacman/pacman/unnamed1.png; sourceTree = "<group>"; };
+		7308BA391C5FE51D0059C704 /* unnameds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unnameds.png; path = PTPacman/pacman/unnameds.png; sourceTree = "<group>"; };
 		7CD0C3F81B9AAA4B00E5AFF7 /* PTPacman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTPacman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD0C3FC1B9AAA4B00E5AFF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CD0C4211B9AAAC900E5AFF7 /* Pacman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pacman.png; path = PTPacman/Pacman.png; sourceTree = "<group>"; };
-		7CD0C4221B9AAAC900E5AFF7 /* Pacmany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pacmany.png; path = PTPacman/Pacmany.png; sourceTree = "<group>"; };
 		7CD0C4231B9AAAC900E5AFF7 /* Tweak.xm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tweak.xm; sourceTree = "<group>"; };
-		7CD0C4241B9AAAC900E5AFF7 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unnamed.png; path = PTPacman/unnamed.png; sourceTree = "<group>"; };
-		7CD0C4251B9AAAC900E5AFF7 /* unnamed1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unnamed1.png; path = PTPacman/unnamed1.png; sourceTree = "<group>"; };
 		7CD0C4261B9AAAC900E5AFF7 /* control */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
 		7CD0C4271B9AAAC900E5AFF7 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		7CD0C4281B9AAAC900E5AFF7 /* PTControl.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = PTControl.plist; sourceTree = "<group>"; };
-		7CD0C4311B9AB8EC00E5AFF7 /* mains.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mains.m; sourceTree = "<group>"; };
+		7CD0C4311B9AB8EC00E5AFF7 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 		7CD0C43A1B9ABAA500E5AFF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7CD0C43F1B9ABF1900E5AFF7 /* Pacman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pacman.h; path = PTPacman/Pacman.h; sourceTree = "<group>"; };
 		7CD0C4401B9ABF1900E5AFF7 /* Pacman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pacman.m; path = PTPacman/Pacman.m; sourceTree = "<group>"; };
 		7CD0C4421B9AC0A400E5AFF7 /* backup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = backup.m; sourceTree = "<group>"; };
-		7CD0C4441B9AC12800E5AFF7 /* mains.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mains.h; sourceTree = "<group>"; };
+		7CD0C4441B9AC12800E5AFF7 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		7CD0C4481B9B452D00E5AFF7 /* Noname.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Noname.h; path = PTPacman/Noname.h; sourceTree = "<group>"; };
 		7CD0C4491B9B452D00E5AFF7 /* Noname.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Noname.m; path = PTPacman/Noname.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,9 +94,9 @@
 				7CD0C4271B9AAAC900E5AFF7 /* Makefile */,
 				7CD0C4281B9AAAC900E5AFF7 /* PTControl.plist */,
 				7CD0C4231B9AAAC900E5AFF7 /* Tweak.xm */,
-				7CD0C4311B9AB8EC00E5AFF7 /* mains.m */,
+				7CD0C4311B9AB8EC00E5AFF7 /* Game.m */,
 				7CD0C3FC1B9AAA4B00E5AFF7 /* Info.plist */,
-				7CD0C4441B9AC12800E5AFF7 /* mains.h */,
+				7CD0C4441B9AC12800E5AFF7 /* Game.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -111,10 +115,12 @@
 		7CD0C4391B9AB9BC00E5AFF7 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				7CD0C4211B9AAAC900E5AFF7 /* Pacman.png */,
-				7CD0C4221B9AAAC900E5AFF7 /* Pacmany.png */,
-				7CD0C4241B9AAAC900E5AFF7 /* unnamed.png */,
-				7CD0C4251B9AAAC900E5AFF7 /* unnamed1.png */,
+				7308BA341C5FE51D0059C704 /* Pacman.png */,
+				7308BA351C5FE51D0059C704 /* Pacmany.png */,
+				7308BA361C5FE51D0059C704 /* unnamed.png */,
+				7308BA371C5FE51D0059C704 /* unnamed0.png */,
+				7308BA381C5FE51D0059C704 /* unnamed1.png */,
+				7308BA391C5FE51D0059C704 /* unnameds.png */,
 			);
 			name = image;
 			sourceTree = "<group>";
@@ -176,13 +182,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7308BA3E1C5FE51D0059C704 /* unnamed1.png in Resources */,
 				7CD0C42E1B9AAAC900E5AFF7 /* control in Resources */,
-				7CD0C4291B9AAAC900E5AFF7 /* Pacman.png in Resources */,
+				7308BA3A1C5FE51D0059C704 /* Pacman.png in Resources */,
+				7308BA3C1C5FE51D0059C704 /* unnamed.png in Resources */,
+				7308BA3F1C5FE51D0059C704 /* unnameds.png in Resources */,
+				7308BA3D1C5FE51D0059C704 /* unnamed0.png in Resources */,
 				7CD0C4301B9AAAC900E5AFF7 /* PTControl.plist in Resources */,
-				7CD0C42A1B9AAAC900E5AFF7 /* Pacmany.png in Resources */,
-				7CD0C42C1B9AAAC900E5AFF7 /* unnamed.png in Resources */,
+				7308BA3B1C5FE51D0059C704 /* Pacmany.png in Resources */,
 				7CD0C42B1B9AAAC900E5AFF7 /* Tweak.xm in Resources */,
-				7CD0C42D1B9AAAC900E5AFF7 /* unnamed1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CD0C4321B9AB8EC00E5AFF7 /* mains.m in Sources */,
+				7CD0C4321B9AB8EC00E5AFF7 /* Game.m in Sources */,
 				7CD0C4431B9AC0A400E5AFF7 /* backup.m in Sources */,
 				7CD0C4411B9ABF1900E5AFF7 /* Pacman.m in Sources */,
 				7CD0C44A1B9B452D00E5AFF7 /* Noname.m in Sources */,
@@ -323,6 +331,7 @@
 				7CD0C41D1B9AAA4B00E5AFF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
