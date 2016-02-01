@@ -9,12 +9,14 @@
 
 __attribute__((visibility("hidden")))
 %hook SBRootFolderView
-BOOL start;
--(void)didAnimate{
-    %orig;
-    if(!start){
-        start=YES;
-        [mains run];
-    }
+BOOL start = NO;
+-(void)didAnimate {
+  %orig;
+  if(start) {
+    return;
+  }
+  start = YES;
+  mains * game = [[mains alloc] init];
+  [game run];
 }
 %end

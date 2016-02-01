@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface Noname : UIView{
+@interface Noname : UIView {
     float X;
     float Y;
 

@@ -1,4 +1,4 @@
-export THEOS_DEVICE_IP=192.168.1.32
+export THEOS_DEVICE_IP=192.168.1.101
 include theos/makefiles/common.mk
 
 TWEAK_NAME = pacman

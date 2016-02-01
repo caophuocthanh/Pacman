@@ -10,7 +10,7 @@
 
 @implementation Pacman
 
--(id)init{
+-(id)init {
     if (self=[super init]) {
         self.frame=CGRectMake(140, 265, 60, 64);
         self.backgroundColor = [self createBacgroundView:@"/USB/Pacman.png"];
@@ -39,21 +39,21 @@
 }
 
 
--(void)startMove{
-    timer =[NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(move) userInfo:nil repeats:YES];
+-(void)startMove {
+    timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(move) userInfo:nil repeats:YES];
 }
 
 
--(void)stopMove{
+-(void)stopMove {
     [timer invalidate];
 }
 
--(UIColor*)createBacgroundView:(NSString*)imageName{
+-(UIColor*)createBacgroundView:(NSString*)imageName {
     UIImage *image = [UIImage imageWithContentsOfFile:imageName];
     UIColor *background = [[UIColor alloc] initWithPatternImage:image];
     return background;
 }
--(id)createView{
+-(id)createView {
     UIView* _view = [[UIView alloc] initWithFrame:CGRectMake(140, 365, 60, 67)];
     _view.clipsToBounds=YES;
     _view.layer.masksToBounds = NO;
@@ -62,42 +62,42 @@
     return _view;
     
 }
--(void)randomSpaceMove{
-    X= arc4random()%11;
-    X=X-5;
-    if(X==0){
-        X=1;
+-(void)randomSpaceMove {
+    X = arc4random() % 11;
+    X = X - 5;
+    if(X == 0) {
+        X = 1;
     }
     
-    Y= arc4random()%11;
-    Y=Y-5;
-    if(Y==0){
-        Y=1;
+    Y = arc4random() % 11;
+    Y = Y - 5;
+    if(Y == 0) {
+        Y = 1;
     }
 }
 
--(void)move{
+-(void)move {
     [UIView animateWithDuration:0.3 animations:^{
-        self.center =CGPointMake(self.center.x + X,self.center.y + Y);
+        self.center = CGPointMake(self.center.x + X,self.center.y + Y);
     }];
-    if(self.center.x <30){
-        X=0-X;
+    if(self.center.x <30 ) {
+        X = 0 - X;
     }
-    if(self.center.x >([[UIScreen mainScreen] bounds].size.width -30)){
-        X=0-X;
+    if(self.center.x > ([[UIScreen mainScreen] bounds].size.width - 30)) {
+        X = 0 - X;
     }
     
-    if(self.center.y <30){
-        Y=0-Y;
+    if(self.center.y < 30) {
+        Y = 0 - Y;
     }
-    if(self.center.y >[[UIScreen mainScreen] bounds].size.height+45){
-        Y=0-Y;
+    if(self.center.y > [[UIScreen mainScreen] bounds].size.height + 45) {
+        Y = 0 - Y;
         if(isRed){
             self.backgroundColor = [self createBacgroundView:@"/USB/Pacmany.png"];
-            isRed=NO;
-        }else{
+            isRed = NO;
+        } else {
             self.backgroundColor = [self createBacgroundView:@"/USB/Pacman.png"];
-            isRed=YES;
+            isRed = YES;
         }
     }
 }
