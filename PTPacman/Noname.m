@@ -13,7 +13,7 @@
 -(id) init {
     if (self = [super init]) {
         self.frame = CGRectMake(40, 65, 64, 64);
-        self.backgroundColor = [self createBacgroundView:@"/USB/unnamed.png"];
+        self.backgroundColor = [self createBacgroundView:@"/var/pacman/unnamed.png"];
         self.clipsToBounds = YES;
         self.layer.masksToBounds = NO;
         self.layer.cornerRadius = 25;
@@ -35,13 +35,13 @@
 
 -(void)eat {
     if(isEat) {
-        self.backgroundColor = [self createBacgroundView:@"/USB/unnameds.png"];
+        self.backgroundColor = [self createBacgroundView:@"/var/pacman/unnameds.png"];
         isEat = NO;
     } else {
         if (isChanged) {
-            self.backgroundColor = [self createBacgroundView:@"/USB/unnamed.png"];
+            self.backgroundColor = [self createBacgroundView:@"/var/pacman/unnamed.png"];
         } else {
-            self.backgroundColor = [self createBacgroundView:@"/USB/unnamed1.png"];
+            self.backgroundColor = [self createBacgroundView:@"/var/pacman/unnamed1.png"];
         }
         isEat = YES;
     }
@@ -78,14 +78,13 @@
     if(self.center.x < 30) {
         X = 0 - X;
         isChanged = YES;
-        self.backgroundColor = [self createBacgroundView:@"/USB/unnamed.png"];
+        self.backgroundColor = [self createBacgroundView:@"/var/pacman/unnamed.png"];
     }
     if(self.center.x > ([[UIScreen mainScreen] bounds].size.width - 30)) {
         X = 0 - X;
         isChanged = NO;
-        self.backgroundColor = [self createBacgroundView:@"/USB/unnamed1.png"];
+        self.backgroundColor = [self createBacgroundView:@"/var/pacman/unnamed1.png"];
     }
-    
     if(self.center.y < 30) {
         Y = 0 - Y;
     }

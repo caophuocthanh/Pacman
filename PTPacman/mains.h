@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 @interface mains : NSObject
--(void) run;
+-(void)run;
+-(void)stop;
 @end

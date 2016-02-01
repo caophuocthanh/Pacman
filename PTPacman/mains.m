@@ -10,7 +10,10 @@
 #import "Pacman.h"
 #import "Noname.h"
 @implementation mains
--(void) run {
+Pacman * pacman1;
+Pacman * pacman2;
+Noname * noname;
+-(void)run {
     NSLog(@"Run game.");
     Pacman * pacman1 = [[Pacman alloc]init];
     [pacman1 startMove];
@@ -19,5 +22,9 @@
     Noname * noname = [[Noname alloc]init];
     [noname startMove];
 }
+
+-(void)stop {
+}
+
 @end
 

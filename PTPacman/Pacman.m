@@ -13,7 +13,7 @@
 -(id)init {
     if (self=[super init]) {
         self.frame=CGRectMake(140, 265, 60, 64);
-        self.backgroundColor = [self createBacgroundView:@"/USB/Pacman.png"];
+        self.backgroundColor = [self createBacgroundView:@"/var/pacman/Pacman.png"];
         self.clipsToBounds=YES;
         self.layer.masksToBounds = NO;
         self.layer.cornerRadius = 25;
@@ -93,10 +93,10 @@
     if(self.center.y > [[UIScreen mainScreen] bounds].size.height + 45) {
         Y = 0 - Y;
         if(isRed){
-            self.backgroundColor = [self createBacgroundView:@"/USB/Pacmany.png"];
+            self.backgroundColor = [self createBacgroundView:@"/var/pacman/Pacmany.png"];
             isRed = NO;
         } else {
-            self.backgroundColor = [self createBacgroundView:@"/USB/Pacman.png"];
+            self.backgroundColor = [self createBacgroundView:@"/var/pacman/Pacman.png"];
             isRed = YES;
         }
     }
@@ -112,8 +112,6 @@
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    //UITouch *touch =  [touches anyObject];
-    //CGPoint currentTouch = [touch locationInView:(UIView*)self];
     NSLog(@"ABC:touchesBegan");
 }
 
