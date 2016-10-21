@@ -1,4 +1,6 @@
 # PTPacman
 Tweak PTPacman run on SpringBoard
 #IMAGE
-<image src="https://scontent-sin1-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/1898090_429676467224618_1217877592180614184_n.jpg?oh=9db7e51a8c589b5a61c92f9645176b4f&oe=56773D7C">
+<img src="https://pbs.twimg.com/media/COMTqA2UAAU9c8n.jpg" >
+
+Use THEOS - http://iphonedevwiki.net/index.php/Theos
