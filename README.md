@@ -1,5 +1,7 @@
-# PTPacman
-Tweak PTPacman run on SpringBoard
+# Pacman
+
+I want some pacmans these run around home screen my iPhone. So I made it when I just have less experiences about iOS app. 
+
 # IMAGE
 <img src="https://pbs.twimg.com/media/COMTqA2UAAU9c8n.jpg" >
 
